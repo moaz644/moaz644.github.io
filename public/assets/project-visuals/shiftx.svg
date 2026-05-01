@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="ShiftX Secure Vault">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04111f"/>
+      <stop offset=".5" stop-color="#061a2f"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="760" rx="42" fill="url(#bg)"/>
+  <path d="M0 140 C250 80 420 210 650 130 S1030 80 1200 170" fill="none" stroke="#38bdf8" stroke-opacity=".18" stroke-width="2"/>
+  <path d="M0 640 C290 570 430 690 710 600 S1040 560 1200 650" fill="none" stroke="#f97316" stroke-opacity=".16" stroke-width="2"/>
+  <g opacity=".18">
+    <path d="M80 80H1120M80 180H1120M80 280H1120M80 380H1120M80 480H1120M80 580H1120M80 680H1120" stroke="#dbeafe"/>
+    <path d="M100 60V700M240 60V700M380 60V700M520 60V700M660 60V700M800 60V700M940 60V700M1080 60V700" stroke="#dbeafe"/>
+  </g>
+  <text x="70" y="96" fill="#f8fafc" font-size="46" font-family="Inter, Arial" font-weight="800">ShiftX Secure Vault</text>
+  <text x="72" y="138" fill="#93c5fd" font-size="22" font-family="Inter, Arial">Privacy-focused desktop application</text>
+  <g transform="translate(72 210)">
+  <rect width="470" height="330" rx="28" fill="#071827" stroke="#2563eb" stroke-opacity=".55"/>
+  <text x="32" y="56" fill="#e0f2fe" font-size="25" font-family="Inter, Arial" font-weight="700">Python Interface</text>
+  <rect x="34" y="94" width="170" height="70" rx="16" fill="#0f2f4f" stroke="#38bdf8"/>
+  <text x="64" y="138" fill="#bae6fd" font-size="20" font-family="Inter, Arial">Files</text>
+  <rect x="34" y="190" width="170" height="70" rx="16" fill="#0f2f4f" stroke="#38bdf8"/>
+  <text x="64" y="234" fill="#bae6fd" font-size="20" font-family="Inter, Arial">Text</text>
+  <path d="M230 130H390M230 226H390" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="410" cy="178" r="58" fill="#082f49" stroke="#38bdf8" stroke-width="4"/>
+  <path d="M386 176h48v42h-48z" fill="url(#a)" rx="8"/>
+  <path d="M396 176v-18c0-22 28-22 28 0v18" fill="none" stroke="#e0f2fe" stroke-width="7" stroke-linecap="round"/>
+</g>
+<g transform="translate(660 210)">
+  <rect width="430" height="330" rx="28" fill="#071827" stroke="#f97316" stroke-opacity=".58"/>
+  <text x="32" y="56" fill="#fff7ed" font-size="25" font-family="Inter, Arial" font-weight="700">C++ Processing Core</text>
+  <rect x="38" y="105" width="145" height="80" rx="16" fill="#1e293b" stroke="#fb923c"/>
+  <text x="68" y="150" fill="#fed7aa" font-size="18" font-family="Inter, Arial">Argon2</text>
+  <rect x="220" y="105" width="145" height="80" rx="16" fill="#1e293b" stroke="#fb923c"/>
+  <text x="246" y="150" fill="#fed7aa" font-size="18" font-family="Inter, Arial">libsodium</text>
+  <rect x="130" y="220" width="160" height="74" rx="16" fill="#1e293b" stroke="#fb923c"/>
+  <text x="170" y="264" fill="#fed7aa" font-size="18" font-family="Inter, Arial">Clean API</text>
+  <path d="M183 145h37M292 185v35M210 220v-35" stroke="#fb923c" stroke-width="4" fill="none"/>
+</g>
+<path d="M548 375H648" stroke="url(#a)" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/>
+</svg>

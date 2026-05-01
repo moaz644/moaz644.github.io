@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://moazalnor.me/sitemap.xml
