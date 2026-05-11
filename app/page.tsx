@@ -429,9 +429,8 @@ export default function HomePage() {
       <section id="projects" className="section-shell projects-section">
         <div className="section-heading" data-reveal>
           <p className="section-kicker">Projects</p>
-          <h2>Robotic portfolio projects with working filters, clear visuals, and detailed views.</h2>
-          <p>Project visuals are pulled from your project document where available. Software, simulation, robotics, and CAD work are separated clearly so filters switch categories without hiding cards.</p>
-        </div>
+          <h2>Take a look at some of my projects .</h2>
+          </div>
 
         <div className="filters" data-reveal>
           {filters.map((filter) => (
