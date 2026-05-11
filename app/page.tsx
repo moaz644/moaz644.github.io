@@ -511,7 +511,7 @@ export default function HomePage() {
           <p className="section-kicker">Contact Me</p>
           <h2>Let’s discuss your engineering or software project.</h2>
           <p>
-            Share the project goal, required deliverables, timeline, and preferred tools. The form uses Formspree when configured, otherwise it opens your email app as a fallback.
+            Share the project goal, required deliverables, timeline, and preferred tools. 
           </p>
 
           <div className="contact-links">
